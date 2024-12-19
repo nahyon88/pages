@@ -8,12 +8,13 @@ document.addEventListener("DOMContentLoaded", function() {
     function updateLinePosition() {
         const now = new Date();
         const AwakeTime = 7
+        const SleepTime = 23
         const startOfDay = new Date(now.getFullYear(), now.getMonth(), now.getDate());
         const SpendTimeAfterAwake = now - startOfDay - AwakeTime*60*60*1000;
         if (SpendTimeAfterAwake < 0) {
             SpendTimeAfterAwake = 0;
         }
-        const newYPosition = (SpendTimeAfterAwake / ((24-AwakeTime)*60*60*1000)) * img.clientHeight + img.offsetTop - 10;
+        const newYPosition = (SpendTimeAfterAwake / ((SleepTime-AwakeTime)*60*60*1000)) * img.clientHeight + img.offsetTop - 10;
         // console.log(img.offsetTop, img.clientHeight, newYPosition);
         line.style.top = `${newYPosition}px`;
     }
