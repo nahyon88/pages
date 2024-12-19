@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function updateLinePosition() {
         const now = new Date();
         const startOfDay = new Date(now.getFullYear(), now.getMonth(), now.getDate());
-        const newYPosition = ((now - startOfDay) / 86400000) * img.clientHeight + img.offsetTop-10;
+        const newYPosition = ((now - startOfDay) / 86400000) * img.clientHeight + img.offsetTop - 10;
         console.log(img.offsetTop, img.clientHeight, newYPosition);
         line.style.top = `${newYPosition}px`;
     }

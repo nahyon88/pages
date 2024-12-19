@@ -1,8 +1,6 @@
 hr {
     border: 2px solid black;
     position: absolute;
-    top: 0;
     left: 0;
-    width: 100%;
     box-sizing: border-box;
 }
