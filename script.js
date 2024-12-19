@@ -2,14 +2,8 @@ document.addEventListener("DOMContentLoaded", function() {
     const img = document.getElementById('image');
     if (!img) return;
 
-    const line = document.createElement('div');
-    line.style.position = 'absolute';
-    line.style.width = '100%';
-    line.style.height = '5px';
-    line.style.backgroundColor = 'black';
-    line.style.top = '0px';
-    img.parentElement.style.position = 'relative';
-    img.parentElement.appendChild(line);
+    const line = document.getElementById('now');
+    line.style.width = `${img.clientWidth}px`;
 
     function updateLinePosition() {
         const now = new Date();
