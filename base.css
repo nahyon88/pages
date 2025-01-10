@@ -1,6 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap');
+
+.nanum-gothic-regular {
+    font-family: "Nanum Gothic", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
 hr {
     border: 2px solid black;
     position: absolute;
     left: 0;
     box-sizing: border-box;
+    font-family: "Nanum Gothic", serif;
 }
