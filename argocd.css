@@ -1,4 +1,8 @@
-.sidebar,
+.sidebar {
+        background:rgb(222, 230, 235) !important;
+        }
+
+/* .sidebar,
 .nav-bar {
         background: #782d18 !important;
       }
@@ -24,4 +28,4 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-}
+} */
