@@ -1,12 +1,11 @@
-.sidebar {
-      background: #c0caf5;
-      color: 
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
-    img.sidebar__logo__character {
-       width: 60px !important;
-       content: url("https://www.sanrio.co.jp/special/characterranking/2025/assets/img/characters/usahana.png") !important;
-    }
-    img.sidebar__logo__text-logo {
+.sidebar,
+.nav-bar {
+        background: #32201b;
+      }
+.nav-bar__logo img,
+.sidebar__logo__character img { 
+        content: url("https://www.sanrio.co.jp/special/characterranking/2025/assets/img/characters/usahana.png") !important;
+      }
+.sidebar__logo__text-logo img {
        content: url("https://logos.textgiraffe.com/logos/logo-name/Dev-designstyle-candy-m.png") !important;
-    }
+      }
