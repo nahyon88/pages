@@ -1,12 +1,14 @@
 .sidebar {
-        background: #3C8069 !important;
+        background: linear-gradient(-45deg,#0E5CAD, #79F1A4)
       }
 
-/* .sidebar__logo__character {
-        visibility: hidden !important;
-        position: relative !important;
-} */
-
 .sidebar__logo__character {
-        content: url("https://www.sanrio.co.jp/special/characterranking/2025/assets/img/characters/usahana.png");
+        content: url("https://papago.naver.com/e3bff6deb50f078fe094f764fac152e8.png");
+        width: 60px !important;
+}
+
+.sidebar__collapse-button,
+.sidebar__logo-container,
+.sidebar__nav-item {
+        color: #317d74 !important;
 }
