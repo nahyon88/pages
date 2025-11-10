@@ -2,25 +2,18 @@
         background: #782d18 !important;
       }
 
-.sidebar__logo__character img { 
-        content: url("https://www.sanrio.co.jp/special/characterranking/2025/assets/img/characters/usahana.png") !important;
-      }
-.sidebar__logo__text-logo img {
-       content: url("https://logos.textgiraffe.com/logos/logo-name/Dev-designstyle-candy-m.png") !important;
-      }
-
-/* .sidebar__logo__character {
-  visibility: hidden !important;
-  position: relative !important;
+.sidebar__logo__character {
+        visibility: hidden !important;
+        position: relative !important;
 }
 
-.sidebar__logo__character::before {
-  content: "";
-  visibility: visible;
-  position: absolute;
-  inset: 0; /* top:0; right:0; bottom:0; left:0 */
-  background-image: url("https://www.sanrio.co.jp/special/characterranking/2025/assets/img/characters/usahana.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-} */
+.sidebar__logo__character::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: url("https://www.sanrio.co.jp/special/characterranking/2025/assets/img/characters/usahana.png") 
+              no-repeat center center;
+        background-size: contain;
+        visibility: visible;
+        width: 60px !important;
+}
