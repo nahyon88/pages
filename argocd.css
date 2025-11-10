@@ -1,19 +1,12 @@
 .sidebar {
-        background: #782d18 !important;
+        background: #3C8069 !important;
       }
 
-.sidebar__logo__character {
+/* .sidebar__logo__character {
         visibility: hidden !important;
         position: relative !important;
-}
+} */
 
-.sidebar__logo__character::after {
-        content: "";
-        position: absolute;
-        inset: 0;
-        background: url("https://www.sanrio.co.jp/special/characterranking/2025/assets/img/characters/usahana.png") 
-              no-repeat center center;
-        background-size: contain;
-        visibility: visible;
-        width: 60px !important;
+.sidebar__logo__character {
+        content: url("https://www.sanrio.co.jp/special/characterranking/2025/assets/img/characters/usahana.png");
 }
